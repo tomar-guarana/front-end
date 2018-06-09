@@ -6,17 +6,30 @@
   margin-left: 2em;
   margin-top: -1.5em; }
 
-.text-center .arquivo {
-  margin-top: 4em; }
-
-.text-center .categoria {
-  margin-top: 2em; }
-
-.text-center .form-signin #inputEmail {
-  margin-top: 3em; }
-
-.text-center .form-signin #inputPassword {
-  margin-right: 1.45em; }
+.text-center .container {
+  max-width: 20em;
+  min-height: 5em;
+  margin: 0 auto;
+  margin-top: 5em;
+  border: 1px solid black; }
+  .text-center .container .container-2 {
+    max-width: 5em;
+    margin-top: -0.8em;
+    background-color: white;
+    border: 1px solid black; }
+  .text-center .container .lista-grupo {
+    margin-top: 0.5em;
+    margin-bottom: 1em; }
+  .text-center .container .porc {
+    margin-top: -5.3em;
+    margin-left: 14em;
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: white; }
+    .text-center .container .porc .porc-text {
+      margin-top: 0.65em; }
 
 .bold {
   font-size: 1.2em;
