@@ -1,41 +1,33 @@
-//color variables
-$first-color: #fafafa;
-$second-color: #3897f0;
-$third-color: #fff;
-$fourth-color: rgba(0, 0, 0, 0.3);
-
-//measures variables
-$zero: 0; 
-
 .text-center{
-    .student-name{
-        margin-right: 3em;
-        margin-top: 2em;
-    }
-    .logo{
-        margin-left: 2em;
-        margin-top: -1.5em;
-    }
 
-    .arquivo{
-        margin-top: 4em;
-    }
+    .sair{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-right: 0.5em;
 
-    .categoria{
-        margin-top: 2em;
-    }
-
-    .form-signin{
-        #inputEmail{
-            margin-top: 3em;
+        .btn{
+            padding: 0.375rem 1.75rem;
         }
-        #inputPassword{
-            margin-right: 1.45em;
-        } 
     }
+    .container{
+        max-width: 1200px; 
+        margin: 0 auto;
+        border: 1px solid #ccc;
+
+        a{
+            color: black;
+        }
+    }
+    .filter{
+        margin-top: 10em;
+    }
+    .tabela{
+        margin-top: 5em;
+    }     
 }
 
 .bold{
-    font-size: 1.2em; 
+    font-size: 1.4em; 
     font-weight: bold;
+    margin-right: 0.7em;
 }
