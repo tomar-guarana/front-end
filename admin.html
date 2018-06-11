@@ -10,6 +10,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="dist/css/admin.css" rel="stylesheet">
@@ -50,7 +52,14 @@
               <th scope="row">1</th>
               <td>Mark</td>
               <td>Otto</td>
-              <td><button class="btn btn-outline-dark" type="submit"></button></td>
+              <td>
+                  <div class="form-group">  
+                    <span class="switch switch-sm">
+                      <input type="checkbox" class="switch" id="switch-sm">
+                      <label for="switch-sm"></label>
+                    </span>
+                  </div>
+                </td>
             </tr>
           </tbody>
         </table>
@@ -60,5 +69,7 @@
     <footer>
       <p class="mt-5 mb-3 text-muted">&copy;2018</p>
     </footer>
+
+
   </body>
 </html>
