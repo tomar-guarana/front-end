@@ -17,7 +17,14 @@
 
   <body class="text-center">
     <div align="right" class="student-name">
-        <label><%= aluno %></label>
+        <div class="dropdown">
+          <label class="dropbtn"><%= aluno %></label>
+          <div class="dropdown-content" align="center">
+            <a href="./incluir-certificado.ejs">Incluir Certificado</a>
+            <a href="./index.ejs">Certificado de Conclusão</a>
+            <a href="/logout">Sair</a>
+          </div>
+        </div> 
     </div>
     <div align="left" class="logo">
       <img src="logo_UTFPR.jpg" width="200">
