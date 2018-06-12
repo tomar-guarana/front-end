@@ -1,6 +1,40 @@
 .text-center .student-name {
-  margin-right: 3em;
-  margin-top: 2em; }
+  margin-right: 8em;
+  margin-top: 2em;
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu on hover */
+  /* Change the background color of the dropdown button when the dropdown content is shown */ }
+  .text-center .student-name .dropbtn {
+    background-color: #D7D7D7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; }
+  .text-center .student-name .dropdown {
+    position: relative;
+    display: inline-block; }
+  .text-center .student-name .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  .text-center .student-name .dropdown-content a {
+    color: #000;
+    padding: 5px;
+    text-decoration: none;
+    display: block; }
+  .text-center .student-name .dropdown-content a:hover {
+    background-color: #D7D7D7; }
+  .text-center .student-name .dropdown:hover .dropdown-content {
+    display: block; }
+  .text-center .student-name .dropdown:hover .dropbtn {
+    background-color: #D7D7D7; }
 
 .text-center .logo {
   margin-left: 2em;
@@ -14,14 +48,14 @@
   border: 1px solid black; }
   .text-center .container .container-2 {
     max-width: 5em;
-    margin-top: -0.8em;
+    margin-top: -2.3em;
     background-color: white;
     border: 1px solid black; }
   .text-center .container .lista-grupo {
     margin-top: 0.5em;
     margin-bottom: 1em; }
   .text-center .container .porc {
-    margin-top: -5.3em;
+    margin-top: -1.6em;
     margin-left: 14em;
     border: 1px solid black;
     width: 3em;
